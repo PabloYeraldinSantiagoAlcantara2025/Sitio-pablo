@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 500px;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #2e7d32;
+}
+
+.description {
+    font-size: 16px;
+    color: #424242;
+}
+
+.highlight {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #1b5e20;
+}
+
+.facebook-button {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #1877f2;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.facebook-button:hover {
+    background-color: #0d47a1;
+}
+
+.fb-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}

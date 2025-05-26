@@ -2,116 +2,22 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pablo Yeraldin Santiago Alcántara</title>
-  <style>
-    :root {
-      --color-principal: #003366;
-      --color-secundario: #f0f4f8;
-      --color-acento: #006699;
-      --texto: #333;
-      --blanco: #ffffff;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--color-secundario);
-      color: var(--texto);
-      line-height: 1.6;
-    }
-    header {
-      background-color: var(--color-principal);
-      color: var(--blanco);
-      padding: 40px 20px;
-      text-align: center;
-    }
-    header img {
-      width: 150px;
-      border-radius: 100px;
-      margin-bottom: 20px;
-      border: 4px solid var(--blanco);
-    }
-    nav {
-      background-color: var(--color-acento);
-      text-align: center;
-      padding: 10px 0;
-    }
-    nav a {
-      color: var(--blanco);
-      margin: 0 15px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: var(--blanco);
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    }
-    h2 {
-      color: var(--color-principal);
-      margin-bottom: 20px;
-    }
-    ul {
-      list-style: disc;
-      padding-left: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      background-color: var(--color-principal);
-      color: var(--blanco);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Yeraldin Santiago Alcántara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="pablo-perfil-redonda.png">
 </head>
 <body>
-
-  <header>
-    <img src="foto-pablo.jpg" alt="Pablo Yeraldin Santiago Alcántara">
-    <h1>Pablo Yeraldin Santiago Alcántara</h1>
-    <p>Licenciado en Educación | SEP | Egresado de la Benemérita Escuela Nacional de Maestros (2018)</p>
-    <p>Enfocado en una mirada reflexiva y filosófica de la educación moderna</p>
-  </header>
-
-  <nav>
-    <a href="#sobre">Sobre mí</a>
-    <a href="#logros">Logros</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-
-  <section id="sobre">
-    <h2>Sobre mí</h2>
-    <p>Soy un educador apasionado por la transformación del pensamiento en el aula. Creo firmemente en una educación crítica, ética y profundamente humana que forme ciudadanos conscientes. Busco renovar las prácticas educativas desde la filosofía, la innovación tecnológica y el compromiso social.</p>
-  </section>
-
-  <section id="logros">
-    <h2>Logros Profesionales</h2>
-    <ul>
-      <li>Participación en la creación y edición de los libros de la Nueva Escuela Mexicana (2019)</li>
-      <li>Reconocido como Maestro Tecnológico por Televisa y CUANTRIX (2021)</li>
-      <li>Diseño de talleres sobre pensamiento crítico para docentes de primaria en CDMX (2022)</li>
-      <li>Coordinador de proyectos de alfabetización digital en escuelas públicas rurales (2020-2023)</li>
-      <li>Autor del módulo “Filosofía en el aula” para el programa estatal de formación docente (2023)</li>
-      <li>Conferencista invitado en el Congreso Nacional de Educación Reflexiva (2024)</li>
-    </ul>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>Próximamente podrás contactarme a través de este sitio. Mientras tanto, puedes escribirme directamente por redes sociales.</p>
-  </section>
-
-  <footer>
-    &copy; 2025 Pablo Yeraldin Santiago Alcántara
-  </footer>
-
+    <div class="container">
+        <img src="pablo-perfil-redonda.png" alt="Foto de Pablo" class="profile-img">
+        <h1>Pablo Yeraldin Santiago Alcántara</h1>
+        <p class="description">Licenciado en Educación, egresado de la Benemérita Escuela Nacional de Maestros (CDMX, 2018).</p>
+        <p class="highlight">Actualmente labora en la Escuela Francisco Díaz Covarrubias.</p>
+        <a class="facebook-button" href="https://www.facebook.com/PabloYeraldinSantiagoAlcantara" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" class="fb-icon">
+            Contactar en Facebook
+        </a>
+    </div>
 </body>
 </html>
